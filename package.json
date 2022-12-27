@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "js-yaml": "^4.1.0"
+  },
+  "type": "module"
+}

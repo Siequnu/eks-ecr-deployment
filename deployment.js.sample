@@ -1,0 +1,23 @@
+export const deploymentRegistry = {
+  containerDestination: '<id>.dkr.ecr.<region>.amazonaws.com',
+  region: '<region>',
+  version: 1,
+  api: {
+    awsAccessKeyId: '',
+    awsSecretAccessKey: '',
+  },
+  deploymentObjects: [
+    {
+      title: 'Object title',
+      label: 'ecr-label',
+      folder: 'object-folder',
+    },
+    {
+      title: 'Another object title',
+      label: 'ecr-label',
+      folder: 'folder',
+      git: 'git@gitaddress',
+      gitFolder: 'gitfolder/docs',
+    },
+  ],
+};
